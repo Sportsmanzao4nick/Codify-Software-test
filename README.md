@@ -1,3 +1,18 @@
+<h2>Интерактивный график</h2>
+
+Тестовое задание Codify Software
+
+Задание по разработке приложения на React для Frontend-стажировки
+
+Реализован следующий функционал:
+<ul>
+<li>Стек ReactJS, NextJS</li>
+<li>График интерактивный и способен отображать любые входные значения</li>
+<li>Модульные стили</li>
+<li>Реализована анимация выбора периода и столбцов</li>
+
+</ul>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

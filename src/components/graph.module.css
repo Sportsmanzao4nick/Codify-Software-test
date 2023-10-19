@@ -1,0 +1,107 @@
+.graph {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    align-self: end;
+    margin: 20px 0;
+}
+
+.select {
+    background-color: #ffffff;
+    border: 2px solid #000AFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 10px;
+    height: 48px;
+    width: 380px;
+}
+
+.svg {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    transform: rotateX(0);
+    transition: all 200ms ease-in-out;
+}
+
+.svgRotate {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    transform: rotateX(180deg);
+    transition: all 200ms ease-in-out;
+}
+
+.options {
+    background-color: #ffffff;
+    border: 2px solid #000AFF;
+    border-radius: 30px;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 9px 10px;
+    position: fixed;
+    width: 380px;
+}
+
+.option {
+    padding: 9px 10px;
+}
+
+.wrapper {
+    background-color: #FF00F50D;
+    border: 1px solid #FF00F50D;
+    border-radius: 10px;
+    height: 400px;
+    padding: 60px 40px;
+}
+
+.chart {
+    display: flex;
+}
+
+.yaxis {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.datawrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.xaxis {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dataxaxis {
+    align-items: end;
+    display: flex;
+    height: 280px;
+    justify-content: space-around;
+    overflow-y: hidden;
+}
+
+.bar {
+    animation: fadeIn 5s ease-in-out;
+    background-color: #000AFF;
+    border: 1px solid #000AFF;
+    border-radius: 4px;
+    width: 16px;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(100%);
+    }
+    20% {
+        transform: translateY(0);
+    }
+}
+
